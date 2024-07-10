@@ -1,0 +1,7 @@
+numpy
+torch
+flask
+nltk
+tensorflow
+tensorflow-gpu
+

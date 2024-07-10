@@ -1,0 +1,351 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hey :-)", "Hello, thanks for visiting", "Hi there, what can I do for you?", "Hi there, how can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "about_rit",
+      "patterns": ["Tell me about RIT", "What is RIT?", "Give me an overview of RIT", "What does RIT stand for?", "Can you provide some information about Rajarambapu Institute of Technology?"],
+      "responses": ["Rajarambapu Institute of Technology, Rajaramnagar (formerly known as College of Engineering, Sakharale) was started in 1983. Located near Islampur, 7 kms away from Peth Naka off Pune-Bangalore highway, RIT has a green beautiful campus of 17 hectares and buildings on it measuring 54,000 sq.m. RIT has emerged as a leading technological Institute in Western Maharashtra through its dedicated and disciplined approach to provide quality technical education over a period of more than thirty seven years."]
+    },
+    {
+      "tag": "special_about_rit",
+      "patterns": ["What is special about RIT?", "Why should I join RIT?", "What makes RIT unique?", "Tell me the specialties of RIT", "What are the unique features of RIT?"],
+      "responses": ["RIT has received numerous awards and achievements at the institute level. Some of the highlights include: securing the 'Rank/Band of 101-150' in the 'NIRF INNOVATION RANKING 2023' by NIRF, Ministry of Education, Government of India, ranking 35th in top 100 Engineering Colleges in India 2023 by Silicon India, ranking in the Gold Band Grade A in pursuit of excellence towards offering Outcome Based Education under OBE ranking 2023 by R World Institutional Ranking, and many more."]
+    },
+    {
+      "tag": "awards_achievements",
+      "patterns": ["What are the awards and achievements of RIT?", "Tell me about RIT's awards", "Has RIT won any awards?", "What are the achievements of RIT?", "Can you list some of the awards RIT has won?"],
+      "responses": ["RIT has received several prestigious awards and recognitions, including: 'Rank/Band of 101-150' in the 'NIRF INNOVATION RANKING 2023' by NIRF, Ministry of Education, Government of India, ranking 35th in top 100 Engineering Colleges in India 2023 by Silicon India, ranking in the Gold Band Grade A in pursuit of excellence towards offering Outcome Based Education under OBE ranking 2023 by R World Institutional Ranking, 'Most Reputed Empowered Autonomous Institute' award at 'Navabharat Education' Summit held in Mumbai, and many more."]
+    },
+    {
+      "tag": "rit_location",
+      "patterns": ["Where is RIT ?", "Tell me the location of RIT", "How can I reach RIT?", "What is the address of RIT?", "Where can I find RIT?","where is rit"],
+      "responses": ["RIT is located near Islampur, 7 kms away from Peth Naka off Pune-Bangalore highway, with a green beautiful campus of 17 hectares and buildings measuring 54,000 sq.m."]
+    },
+    {
+      "tag": "rit_courses",
+      "patterns": ["What courses does RIT offer?", "Tell me the courses available at RIT", "What programs are available at RIT?", "Which courses can I study at RIT?", "What are the academic programs at RIT?"],
+      "responses": ["RIT offers a wide range of courses in engineering and technology, including Civil Engineering, Computer Engineering, Computer Science and Engineering (AI/ML), Computer Science and Information Technology, Electrical Engineering, Electronics and Telecommunication Engineering, Mechanical Engineering, Mechatronics Engineering, and Robotics and Automation. Please visit our website or contact our admissions office for detailed information on the courses available."]
+    },
+    {
+      "tag": "Civil_Engineering",
+      "patterns": ["Tell me about Civil T", "What is the intake for Civil ?", "What are the features of the Civil Engineering department?"],
+      "responses": [
+        "Civil Engineering: 60 intake and 4 years duration. National Board of Accreditation (NBA) Accredited. Recognized Ph.D. Research Centre by Shivaji University, Kolhapur. In House Seed Funding Projects undergone by faculty and students. Department has good Industry-Academia relationship."
+      ]
+    },
+    {
+      "tag": "Computer_science_Engineering",
+      "patterns": ["Details of Computer ", "cse", "Computer science Engineering details"],
+      "responses": [
+        "Computer Engineering: 180 intake and 4 years duration. National Board of Accreditation (NBA) Accredited. APPLE Education Centre Laboratory. Open-source club under REDHAT for Open-source projects. Department has good Industry-Academia relationship."
+      ]
+    },
+    {
+      "tag": "CSE_AI_ML_Engineering",
+      "patterns": ["Tell me about CSE AI/ML ","aiml department details","tell me about aiml" ,"Details of CSE AI/ML ", "CSE AI/ML  department features"],
+      "responses": [
+        "CSE (AI/ML) Engineering: 60 intake and 4 years duration. APPLE Education Centre Laboratory. Open-source club under REDHAT for Open-source projects. Department has good Industry-Academia relationship."
+      ]
+    },
+    {
+      "tag": "Electrical_Engineering",
+      "patterns": ["Tell me about Electrical", "What is the intake for Electrical?", "Electrical  department features"],
+      "responses": [
+        "Electrical Engineering: 60 intake and 4 years duration. Power Electronics and Drives Lab. Centre of Excellence electric Vehicle. Department has good Industry-Academia relationship."
+      ]
+    },
+    {
+      "tag": "accommodation",
+      "patterns": ["Tell me about the accommodation at RIT", "Are there hostel facilities at RIT?", "What are the accommodation options for RIT students?", "Is there private room-based service available near RIT?"],
+      "responses": [
+        "RIT offers comprehensive accommodation options including hostel facilities on campus for both girls and boys, equipped with mess facilities serving both vegetarian and non-vegetarian food. Additionally, private room-based services are available outside the campus for students seeking off-campus living arrangements."
+      ]
+    },
+    
+    {
+      "tag": "Mechanical_Engineering",
+      "patterns": ["Mechanical T", "What is the intake for Mechanical?"],
+      "responses": [
+        "Mechanical Engineering: 120 intake and 4 years duration. Mature department with 35+ years of experience. Offers consultancy to various Industries, government and private organisations. Recognised PhD centre of Shivaji University, Kolhapur."
+      ]
+    },
+    {
+      "tag": "Information_Technology",
+      "patterns": ["Tell me about Information Technology ", "IT Branch","What is the intake for Information Technology?", "Features of the Information Technology department?"],
+      "responses": [
+        "Information Technology: 60 intake and 4 years duration. The department has a good teaching staff committed to providing quality education and guidance to students."
+      ]
+    },
+    {
+      "tag": "Electronics_and_Telecommunication_Engineering",
+      "patterns": ["Information about Electronics and Telecommunication", "ENTC","Tell me about Electronics and Telecommunication Engineering", "What are the features of the Electronics and Telecommunication Engineering department?"],
+      "responses": [
+        "Electronics and Telecommunication : 120 intake and 4 years duration. The Department is Recognized as Ph.D. Research Centre of Shivaji University, Kolhapur. Well Equipped Research Labs. Department has good Industry-Academia relationship."
+      ]
+    }
+    ,
+    {
+      "tag": "more_mechanical_engineering",
+      "patterns": [
+        "Tell me more about mechanical  subjects",
+        "What subjects are taught for mechanical?",
+        "What are the subjects of the Mechanical  department?",
+        "More information about Mechanical "
+      ],
+      "responses": [
+        "The Mechanical Engineering program  offers a well-rounded curriculum covering core and specialized subjects. Core subjects include Engineering Mechanics, Thermodynamics, Fluid Mechanics, Heat and Mass Transfer, and Machine Design. Specialized subjects include Robotics, Automobile Engineering, Renewable Energy Systems, and Advanced Manufacturing Processes. The program also includes practical lab sessions, industry projects, and internships to ensure students gain hands-on experience and industry exposure."
+      ]
+    },
+   
+    {
+      "tag": "more_information_technology",
+      "patterns": [
+        "Tell me more about information technology subjects ",
+        "What subjects are taught for information technology?",
+        "What are the subjects of the Information Technology department?",
+        "More information about Information Technology"
+      ],
+      "responses": [
+        "The Information Technology program  includes a diverse range of subjects focusing on core IT concepts and advanced technologies. Core subjects include Programming, Data Structures, Database Management Systems, Networks, and Web Technologies. Advanced subjects include Cyber Security, Cloud Computing, Artificial Intelligence, and Data Analytics. The curriculum is designed to provide hands-on learning through lab sessions, projects, and industry internships."
+      ]
+    },
+   
+    {
+      "tag": "more_electrical_engineering",
+      "patterns": [
+        "Tell me more about electrical  subjects ",
+        "What subjects are taught for electrical ?",
+        "What are the subjects of the Electrical department?",
+        "More information about Electrical Engineering"
+      ],
+      "responses": [
+        "The Electrical Engineering program at RIT offers a robust curriculum with core and specialized subjects. Core subjects include Electrical Circuits, Electromagnetic Fields, Power Systems, Control Systems, and Electrical Machines. Specialized subjects include Power Electronics, Renewable Energy Systems, Electric Drives, and Smart Grid Technology. The program also features lab sessions, projects, and internships to ensure hands-on learning and industry exposure."
+      ]
+    },
+    {
+      "tag": "more_civil_engineering",
+      "patterns": [
+        "Tell me more about civil  subjects ",
+        "What subjects are taught for civil engineering?",
+        "What are the subjects of the Civil Engineering department?",
+        "More information about Civil Engineering"
+      ],
+      "responses": [
+        "The Civil Engineering program at RIT includes a comprehensive range of subjects to build a strong foundation in the field. Core subjects include Structural Analysis, Concrete Technology, Geotechnical Engineering, Transportation Engineering, and Environmental Engineering. Specialized subjects include Urban Planning, Water Resources Engineering, and Construction Management. The program also incorporates lab sessions, field projects, and internships to provide practical experience and industry readiness."
+      ]
+    },
+    
+    {
+      "tag": "rit_fees",
+      "patterns": ["What is the fee structure ?", "Tell me the fees for courses ", "How much does it cost to study ?", "What are the tuition fees?", "Can you provide the fee details "],
+      "responses": ["The fee structure at RIT varies depending on the course and program. For detailed information, please visit our website or contact the admissions office."]
+    },
+    {
+      "tag": "rit_contact",
+      "patterns": ["How can I contact RIT?", "Give me the contact details of RIT", "How do I get in touch with RIT?", "What is the phone number for RIT?", "Can you provide the contact information for RIT?"],
+      "responses": ["You can contact RIT by visiting our website for more details or call our admissions office at +91-9970700800. You can also email us at [email address]."]
+    },
+    {
+      "tag": "rit_club",
+      "patterns": [
+        "Are there any clubs ?",
+        "Tell me about the clubsT",
+        "What clubs are available ?"
+      ],
+      "responses": [
+        "RIT provides a diverse range of clubs and student chapters, featuring technical clubs such as EWB, Go Kart, SAE BAJA, along with non-technical clubs like the Media Club, RIT Media Cell, E-Cell RIT, ISTE Student Chapter, and TEDx.",
+        "RIT offers numerous clubs and student chapters, including technical ones like EWB, Go Kart, SAE BAJA, and non-technical ones such as the Media Club, RIT Media Cell, E-Cell RIT, ISTE Student Chapter, and TEDx.",
+        "RIT has a wide variety of clubs and student chapters, encompassing technical clubs like EWB, Go Kart, SAE BAJA, as well as non-technical clubs like the Media Club, RIT Media Cell, E-Cell RIT, ISTE Student Chapter, and TEDx."
+      ]
+    },
+    {
+      "tag": "cse_aiml",
+      "patterns": [
+        "Tell me more about cse aiml subjects ",
+        "What subjects are teaching for cse aiml?",
+        "What are the subject of the CSE-AIML Engineering department?",
+        "More information about AIML"
+      ],
+      "responses": [
+        "The CSE (AI/ML) Engineering program at RIT covers a comprehensive range of subjects designed to provide a strong foundation in computer science and specialized knowledge in artificial intelligence and machine learning. Core subjects include Data Structures and Algorithms, Database Management Systems, Operating Systems, Computer Networks, and Software Engineering. Specialized AI/ML subjects include Machine Learning, Deep Learning, Natural Language Processing, Computer Vision, and Data Science. The curriculum also includes practical lab sessions, projects, and industry internships to ensure hands-on learning and real-world application of skills."
+      ]
+    },
+    
+    {
+      "tag": "rit_hostel",
+      "patterns": [
+        "Does RIT have hostel facilities?",
+        "Tell me about the hostel facilities ",
+        "Is there accommodation available on campus?"
+      ],
+      "responses": [
+        "Hostel facilities are available  for both girls and boys. The hostels have mess facilities that serve both vegetarian and non-vegetarian food. Additionally, there are canteens and food counters located at different spots on campus."
+      ]
+    }
+    
+    ,
+
+    {
+      "tag": "rit_foreign_languages",
+      "patterns": ["Does RIT offer foreign language courses?", "Can I learn a foreign language ?", "What foreign languages can I learn at RIT?", "Tell me about the foreign language courses at RIT"],
+      "responses": ["Under the choice-based professional skills development program, RIT provides students an opportunity to undertake foreign language courses like German and Japanese, at both basic and advanced levels."]
+    },
+    {
+      "tag": "rit_placements",
+      "patterns": ["Does RIT provide placement opportunities?", "Tell me about the placements ", "What is the highest package ?", "How does RIT help with placements?", "Can I prepare for studies abroad ?"],
+      "responses": ["RIT has a robust placement cell that organizes various programs to prepare students for placements, including soft skills and aptitude training, group discussions, company-specific tests, mock interviews, and resume writing skills. The highest package for the year 2022-23 was 15 LPA. The Global Exposure Cell conducts classes for GRE, TOEFL, and IELTS, and around 25-30 students take admissions in various countries like the USA, Australia, Taiwan, Germany, and more every year."]
+    },
+    {
+      "tag": "rit_gate",
+      "patterns": ["Does RIT provide GATE preparation?", "Tell me about GATE preparation", "How can I prepare for GATE ?", "Is there GATE coaching available ?"],
+      "responses": ["RIT has collaborations with Imperial Academy of Excellence, Pune, and Gate Forum Kolhapur for GATE exam training. The institute also owns the Gate Tutor app, which helps students prepare for GATE on their own. GATE preparation for all students starts right from the second year."]
+    },
+    {
+      "tag": "rit_administration",
+      "patterns": ["Tell me about the administration ", "Is there a dress code ?", "How is the fee payment  handled?", "Do students get an ID card ?", "What are the administrative policies ?"],
+      "responses": ["At the time of admission, students are issued ID cards. There is a dress code for both students and faculty. For detailed information on fee payment and other administrative policies, please visit our website at https://www.ritindia.edu."]
+    },
+  
+
+  
+    {
+      "tag": "faculties",
+      "patterns": [
+        "Tell me about the faculties ",
+        "Who are the faculties teaching ?",
+        "Can you provide information about RIT faculties?",
+        "What is the faculty strength?"
+      ],
+      "responses": [
+        "RIT boasts a highly qualified faculty team with expertise in their respective fields. Our faculty members are committed to providing quality education and guidance to students."
+      ]
+    },
+    {
+      "tag": "student_life",
+      "patterns": [
+        "What is student life like ?",
+        "Tell me about student activities",
+        "Are there clubs and extracurricular activities ?",
+        "How is the cultural life ?"
+      ],
+      "responses": [
+        "Student life  is vibrant and engaging. We have numerous clubs and student chapters, including technical clubs like EWB, Go Kart, SAE BAJA, and non-technical clubs like Media Club, RIT Media Cell, E-Cell RIT, ISTE Student Chapter, and TEDx. These clubs offer opportunities for students to develop their skills and interests outside of academics."
+      ]
+    },
+    {
+      "tag": "placements_stats",
+      "patterns": [
+        "What are the placement statistics ",
+        "Tell me about the placement record of RIT",
+        "How are the placements ?",
+        "Can you provide details onplacements?"
+      ],
+      "responses": [
+        "RIT has a strong placement record with top companies visiting our campus for recruitment. Our placement cell organizes various training programs and placement drives to ensure maximum opportunities for students."
+      ]
+    },
+    {
+      "tag": "rit_events",
+      "patterns": [
+        "Are there any events ?",
+        "Tell me about the events organized by RIT",
+        "What are the cultural events ?",
+        "Is there any upcoming event ?"
+      ],
+      "responses": [
+        "RIT hosts a variety of events throughout the year, including cultural festivals, technical symposiums, workshops, and seminars. A highlight is the grand annual event, 'Virangula,' and each department also organizes its own unique events.",
+"Throughout the year, RIT hosts numerous events such as cultural festivals, technical symposiums, workshops, and seminars. The grand annual event 'Virangula' is a major highlight, along with various events organized by individual departments.",
+"RIT's event calendar is packed with cultural festivals, technical symposiums, workshops, and seminars. The grand annual 'Virangula' event is a standout, and each department contributes with its own specialized events.",
+", events are plentiful, ranging from cultural festivals and technical symposiums to workshops and seminars. The grand 'Virangula' event is a major attraction, with each department also hosting their own distinct events.",
+"RIT organizes a wide range of events throughout the year, including cultural festivals, technical symposiums, workshops, and seminars. 'Virangula,' our grand annual event, is a highlight, and each department also arranges their own events."
+      ]
+    },
+    {
+      "tag": "rit_infrastructure",
+      "patterns": [
+        "What is the infrastructure like at RIT?",
+        "Tell me about the facilities and infrastructure at RIT",
+        "Is RIT campus equipped with modern facilities?",
+        "How are the labs and classrooms at RIT?"
+      ],
+      "responses": [
+        "RIT offers state-of-the-art infrastructure with well-equipped laboratories, modern classrooms, a comprehensive library, high-speed internet facilities, hostel accommodation with mess facilities, and recreational spaces for students."
+      ]
+    },
+    {
+      "tag": "rit_research",
+      "patterns": [
+        "Is there any research conducted ?",
+        "Tell me about research opportunities ",
+        "What are the research facilities ?",
+        "Can students participate in research ?"
+      ],
+      "responses": [
+        "Research is an integral part of RIT's academic culture. We encourage and support research activities across various disciplines. Our research facilities are equipped to foster innovation and scholarly pursuits among students and faculty."
+      ]
+    },
+    {
+      "tag": "rit_accreditation",
+      "patterns": [
+        "Is RIT accredited?",
+        "Tell me about RIT's accreditation",
+        "What are the accreditation bodies for RIT?",
+        "Is RIT recognized by any regulatory bodies?"
+      ],
+      "responses": [
+        "RIT is accredited by the National Board of Accreditation (NBA) and recognized by regulatory bodies such as Shivaji University, Kolhapur. Our accreditation ensures quality education and compliance with academic standards."
+      ]
+    },
+    {
+      "tag": "rit_admissions",
+      "patterns": [
+        "How can I get admission ?",
+        "what is admission process",
+        "Tell me about the admission process ",
+        "What are the eligibility criteria for admissions ?",
+        "Is there an entrance exam for admissions to RIT?"
+      ],
+      "responses": [
+        "Admissions to RIT are based on merit and entrance exam scores. Please visit our website or contact our admissions office for detailed information on eligibility criteria, application procedures, and important dates."
+      ]
+    },
+    {
+      "tag": "rit_scholarships",
+      "patterns": [
+        "Does RIT offer scholarships?",
+        "Tell me about scholarships ",
+        "Are there any financial aid options?",
+        "How can I apply for scholarships ?"
+      ],
+      "responses": [
+        "RIT provides scholarships and financial aid to eligible students based on merit and other criteria. Scholarships are available for deserving candidates. Please check our website or contact the admissions office for details on scholarship opportunities and application procedures."
+      ]
+    },
+    {
+      "tag": "rit_alumni",
+      "patterns": [
+        "Are there notable alumni from RIT?",
+        "Tell me about RIT alumni",
+        "What are the achievements of RIT alumni?",
+        "Can you provide examples of successful RIT alumni?"
+      ],
+      "responses": [
+        "RIT boasts a strong network of alumni who have excelled in various fields. Our alumni have made significant contributions to industry, academia, and society, reflecting the quality of education and training they received at RIT."
+      ]
+    }
+  ]
+}
