@@ -15,5 +15,6 @@ def predict():
     return jsonify(message)
 
 if __name__ == "__main__":  # Correct the typo here
+    nltk.download('stopwords')
     app.run(debug=True)  
  
