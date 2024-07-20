@@ -1,20 +1,11 @@
-import torch
-import torch.nn as nn
+#This model.py
 
+import tensorflow as tf
 
-class NeuralNet(nn.Module):
-    def __init__(self, input_size, hidden_size, num_classes):
-        super(NeuralNet, self).__init__()
-        self.l1 = nn.Linear(input_size, hidden_size) 
-        self.l2 = nn.Linear(hidden_size, hidden_size) 
-        self.l3 = nn.Linear(hidden_size, num_classes)
-        self.relu = nn.ReLU()
-    
-    def forward(self, x):
-        out = self.l1(x)
-        out = self.relu(out)
-        out = self.l2(out)
-        out = self.relu(out)
-        out = self.l3(out)
-        # no activation and no softmax at the end
-        return out
+def create_model(input_size, hidden_size, num_classes):
+    model = tf.keras.Sequential([
+        tf.keras.layers.Dense(hidden_size, activation='relu', input_shape=(input_size,)),
+        tf.keras.layers.Dense(hidden_size, activation='relu'),
+        tf.keras.layers.Dense(num_classes)
+    ])
+    return model
